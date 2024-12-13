@@ -20,7 +20,7 @@ clock = pygame.time.Clock()
 
 armoire_image = pygame.transform.scale(pygame.image.load("armoire.png"), (ARM_SIZE, ARM_SIZE))
 marceau_image = pygame.transform.scale(pygame.image.load("marceau.jpeg"), (M_SIZE, M_SIZE))
-boost_image = pygame.transform.scale(pygame.image.load("boost.webp"), (BOOST_SIZE, BOOST_SIZE))
+boost_image = pygame.transform.scale(pygame.image.load("boost.png"), (BOOST_SIZE, BOOST_SIZE))
 
 def show_start_screen():
     font = pygame.font.Font(None, 74)
